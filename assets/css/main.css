@@ -1,0 +1,40 @@
+/* EXAMPLE 3
+
+line height is 20px by default so add 30px top and bottom to equal the new .navbar-brand 80px height  */
+body{
+	background-color: pink;
+	font-family: 'Lato', sans-serif;
+}
+.navbar{
+	background-color: #F1F1F1; /*gris*/
+	border-bottom: none;
+	margin-bottom: 0;
+}
+a.navbar-brand{
+	font-weight: 900;
+}
+.navbar-right li:hover{
+	background-color: #adabab; /*gris oscuro*/
+}
+/***********************HEADER*********************/
+.header{
+	width: 100%;
+	margin: auto;
+	background-color: #34495E; /*azul*/
+	text-align: center;
+	border-bottom: none;
+}
+.header h1, .header h3{
+	color: white;
+}
+.page-header{
+	border: none;
+}
+/************************To Excel******************/
+.second-section{
+	background-color: #F1F1F1; /*gris*/
+	text-align: center;
+}
+.second-section img{
+	margin:auto;
+}
