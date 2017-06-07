@@ -38,3 +38,51 @@ a.navbar-brand{
 .second-section img{
 	margin:auto;
 }
+.new{
+	background-color: #F1F1F1; /*gris*/
+}
+.new h3{
+	color: #98e2cd;
+}
+.new img{
+	margin-left: 20%;
+}
+/***************Compu Mino*************/
+.screenshots{
+	width: 100%;
+	background-color: #34495E; /*azul*/
+	text-align: center;	
+}
+.screenshots h1{
+	color: white;
+	padding: 30px;
+}
+/********************FOOTER****************/
+.footer{
+	background-color: #2F2F2F;
+	width: 100%;
+	color: white;
+}
+.footer label, .footer input, .footer button{
+	display: block;
+}
+.footer button{
+	background-color: #5cb85b;
+	border: none;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer input{
+	width: 80%;
+	border-radius: 4px;
+}
+.footer label{
+	padding-top: 5px;
+}
+.final{
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
