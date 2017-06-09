@@ -9,26 +9,35 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand">Pratt</a>
-      </div>
-      <div id="navbar3" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Description</a></li>
-          <li><a href="#">Showcase</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
+  	<nav class="navbar navbar-default">
+	    <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Pratt</a>
+	    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Home</a></li>
+            <li><a href="#">Description</a></li>
+            <li><a href="#">Showcase</a></li>
+            <li><a href="#">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+ 	</div>
+ 	</nav>
   <section class="header container">
   	<div class="page-header">
   		<h1>Welcome to <b>Pratt</b></h1>
   		<h3>Show your product with this handsome theme</h3>
-  		<img src="assets/img/app-bg.png" alt="pantalla">
+  		<img src="assets/img/app-bg.png" alt="pantalla" class="img-responsive">
 	</div>
   </section>
   <section class="second-section" id="features">
@@ -88,7 +97,7 @@
 	<section class="screenshots container">
   	<div class="page-header">
   		<h1>Some Screenshots</h1>
-  		<img src="assets/img/item-01.png" alt="pantalla">
+  		<img src="assets/img/item-01.png" alt="pantalla" class="img-responsive">
 	</div>
     </section>
     <section class="footer container">
@@ -103,12 +112,12 @@
 	        <div class="col-sm-7">
 	        	<h3>Drop Us A Line</h3>
 	        	<label for="nameId">Your Name</label>
-	        	<input type="text" id="nameId">
+	        	<input type="text" id="nameId" class="nuevoInput hideInput">
 	        	<label for="emailId">Email Adress</label>
-	        	<input type="text" id="emailId">
+	        	<input type="text" id="emailId" class="nuevoInput hideInput">
 	        	<label for="comentId">Your Text</label>
-	        	<input type="text" id="comentId">
-	        	<button>SUBMIT</button>
+	        	<input type="text" id="comentId" class="nuevoInput hideInput">
+	        	<button id="submitId">SUBMIT</button>
 	        </div>
     	</div>
     	<div class="row final">
@@ -117,6 +126,6 @@
     		</div>
     	</div>
     </section>
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>

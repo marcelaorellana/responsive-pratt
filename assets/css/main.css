@@ -66,6 +66,9 @@ a.navbar-brand{
 .footer label, .footer input, .footer button{
 	display: block;
 }
+.footer input{
+	color: black;
+}
 .footer button{
 	background-color: #5cb85b;
 	border: none;
@@ -85,4 +88,16 @@ a.navbar-brand{
 	text-align: center;
 	padding: 20px;
 	font-size: 20px;
+}
+input.hideInput{
+	border: none;
+	border-bottom: 1px solid #BDBCC3;/*azul*/
+	padding: 10px;
+	width: 90%;	
+}
+input.showInput{
+	background-image: url(../img/error.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right;
 }
