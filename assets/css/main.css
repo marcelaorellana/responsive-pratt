@@ -5,6 +5,10 @@ body{
 	background-color: pink;
 	font-family: 'Lato', sans-serif;
 }
+.img-responsive {
+    margin: 0 auto;
+}
+
 .navbar{
 	background-color: #F1F1F1; /*gris*/
 	border-bottom: none;
@@ -23,12 +27,14 @@ a.navbar-brand{
 	background-color: #34495E; /*azul*/
 	text-align: center;
 	border-bottom: none;
+	text-align: center;
 }
 .header h1, .header h3{
 	color: white;
 }
 .page-header{
 	border: none;
+	text-align: center;
 }
 /************************To Excel******************/
 .second-section{
@@ -50,6 +56,7 @@ a.navbar-brand{
 /***************Compu Mino*************/
 .screenshots{
 	width: 100%;
+	margin: auto;
 	background-color: #34495E; /*azul*/
 	text-align: center;	
 }
