@@ -53,6 +53,12 @@ a.navbar-brand{
 .new img{
 	margin-left: 20%;
 }
+#line{
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color: silver;
+}
 /***************Compu Mino*************/
 .screenshots{
 	width: 100%;
@@ -76,12 +82,16 @@ a.navbar-brand{
 .footer input{
 	color: black;
 }
+#comentId{
+	line-height: 30px;
+}
 .footer button{
 	background-color: #5cb85b;
 	border: none;
 	border-radius: 4px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding: 5px 10px;
 }
 .footer input{
 	width: 80%;
